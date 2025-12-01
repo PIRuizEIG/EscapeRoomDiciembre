@@ -34,4 +34,4 @@ sin ser descubierto jamás. Las consecuencias de ese acto afectaron indirectamen
 
 En este juego, deberá realizar consultas SQL relacionadas con el dinero en una base de datos diseñada para  
 simular la de su antigua empresa. Solo reconstruyendo la verdad y completando correctamente las consultas podrá  
-acercarse a la salida… o enfrentarse finalmente a sus propios actos.
+acercarse a la salida… o enfrentarse finalmente a sus propios actos.ppppp
