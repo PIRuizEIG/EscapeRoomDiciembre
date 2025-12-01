@@ -65,6 +65,8 @@ public class EscapeRoom {
 			System.out.printf("%s%n", success[num]);
 		else
 			System.out.println("Error, sala fuera de rango");
+		if (num == success.length-1)
+			System.out.println("Fin del juego");
 	}
 
 	/**
