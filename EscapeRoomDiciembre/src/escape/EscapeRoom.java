@@ -98,7 +98,7 @@ public class EscapeRoom {
 	 */
 	public static void main(String args[]) {
 		String desc[] = { "Bienvenidos a SAW", "Estás en la habitación 1" };
-		String answ[] = { "Paco" };
+		String answ[] = { "Pepe" };
 		String succ[] = { "Has ganado" };
 		var obj = new EscapeRoom(desc, answ, succ);
 		obj.showInit();
