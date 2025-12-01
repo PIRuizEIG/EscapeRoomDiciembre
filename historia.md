@@ -21,3 +21,17 @@ Una voz resuena por la megafonía sobre ti:
 > en el pasado no fallaste, no te apresuraste y no cometiste errores. Si aquí fuera igual,  
 > ¿dónde se encontraría la diversión…? Por cada consulta que realices incorrectamente  
 > recibirás un castigo, así que ándate con ojo…"**
+
+---
+
+## Contexto del jugador
+
+El jugador era un trabajador en una gran empresa dedicada a la compra-venta de mercancías.  
+Cada cierto periodo del año, la empresa enviaba parte del dinero de las ventas como donaciones a un hospital infantil.
+
+Durante años, el jugador desvió parte del dinero destinado a esas donaciones hacia su propia cuenta personal,  
+sin ser descubierto jamás. Las consecuencias de ese acto afectaron indirectamente a los niños que dependían de esa ayuda.
+
+En este juego, deberá realizar consultas SQL relacionadas con el dinero en una base de datos diseñada para  
+simular la de su antigua empresa. Solo reconstruyendo la verdad y completando correctamente las consultas podrá  
+acercarse a la salida… o enfrentarse finalmente a sus propios actos.
