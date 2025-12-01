@@ -35,3 +35,19 @@ sin ser descubierto jamás. Las consecuencias de ese acto afectaron indirectamen
 En este juego, deberá realizar consultas SQL relacionadas con el dinero en una base de datos diseñada para  
 simular la de su antigua empresa. Solo reconstruyendo la verdad y completando correctamente las consultas podrá  
 acercarse a la salida… o enfrentarse finalmente a sus propios actos.
+
+---
+
+## Consultas y Castigos
+
+Cada consulta tiene **un primer intento sin castigo**.  
+El jugador, basándose en una pista escrita en la pared del armario, deberá realizar la consulta para obtener el dato deseado.  
+Puede hacer todas las pruebas que quiera, pero al confirmar una respuesta, si esta es incorrecta y ya ha usado su primer intento, aparecerá el siguiente diálogo:
+
+> **"Veo que has cometido suficientes errores como para recibir tu primer castigo… pero no temas, aún te queda mucho por delante.  
+> En este mismo instante se ha abierto un conducto que está desplazando lentamente el oxígeno del lugar donde te encuentras, lo que provocará que acabes muriendo por asfixia.  
+> A partir de ahora vas contrarreloj, y cuantas más veces falles… más conductos comenzarán a succionar el oxígeno."**
+
+De esta manera, el jugador tiene un primer intento en el que se permite fallar sin consecuencias.  
+Pero si falla en un segundo intento, se activará un temporizador; y a medida que continúe fallando, el tiempo disponible se irá reduciendo.
+
