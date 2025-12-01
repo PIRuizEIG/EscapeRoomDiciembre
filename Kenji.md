@@ -16,6 +16,8 @@ Narrativa: Al introducir el apellido correcto, el segundo armario se desbloquea.
 
 **Lo que se pide: Encuentra el nombre del producto (ProductName) con el precio más alto (Price) de toda la base de datos.**
 
+CAMBIO 2
+
 
 
 
