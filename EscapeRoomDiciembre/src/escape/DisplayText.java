@@ -50,6 +50,11 @@ public class DisplayText {
 		this.success = success;
 		needsAnswer = true;
 	}
+	
+	/**
+	 * Objeto vacío para JSON
+	 */
+	public DisplayText() {}
 
 	/**
 	 * Mostrar la descripción e indicar si hay que responder
