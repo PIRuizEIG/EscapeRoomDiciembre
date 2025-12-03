@@ -51,6 +51,11 @@ Puede hacer todas las pruebas que quiera, pero al confirmar una respuesta, si es
 De esta manera, el jugador tiene un primer intento en el que se permite fallar sin consecuencias.  
 Pero si falla en un segundo intento, se activará un temporizador; y a medida que continúe fallando, el tiempo disponible se irá reduciendo.
 
+También en caso de que el jugador pase de la primera consulta sin fallar, en el segundo terminal se mostrará:
+
+>"Lo has hecho bien... Demasiado bien... Para que esto esté mas interesante, ¿Qué tal si aplicamos un poco de presión?
+>Se acaba de abrir un respiradero que está trasladando lentamente el oxigeno del lugar donde te encuentras, lo que provocará que acabes muriendo de asfixia, así que a partir de ahora vas contra reloj y ahora ten cuidado con fallar... Puede que eso recorte tu tiempo..."
+
 ---
 
 ## Posibles consultas:
@@ -65,4 +70,19 @@ Pero si falla en un segundo intento, se activará un temporizador; y a medida qu
 
 Uniendo el primer digito de cada resultado de estas consultas se consigue el código de la terminal principal.
 
-5. 
+5. Obtener el número total de unidades vendidas del producto más solicitado en toda la empresa.
+
+---
+
+## Dialogos respecto a acciones:
+
+Se acaba el tiempo (El jugador muere asfixiado):
+>"Parece que no das la talla para salvar ninguna vida... Ya has sido juzgado en vida, ahora tus pecados serán juzgados en la siguiente..."
+
+Se intenta introducir un código incorrecto en la terminal final:
+>"Veo que no lo estas entendiendo, pero no te preocupes... Introduce todos los que quieras, los castigos se aplican en los retos de verdad..."
+
+Se abre la puerta final y el jugador es libre:
+>"Veo que lo has superado, una pena... Estaré observando tus acciones, nos vemos en el siguiente juego..."
+
+---
