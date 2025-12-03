@@ -66,18 +66,11 @@ JOIN OrderDetails ON Orders.OrderID = OrderDetails.OrderID
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
 WHERE Customers.Country = 'USA';
 
-respuesta:
-
-### Encuentra el nombre del producto que NUNCA ha aparecido en una orden de pedido.
-13- SELECT ProductName 
-FROM Products 
-WHERE ProductID NOT IN (SELECT ProductID FROM OrderDetails);
-
-respuesta:
+respuesta: 69611.75
 
 ### Si sumas el ID del Proveedor (SupplierID) con más productos en catálogo, multiplicado por el número total de pedidos del empleado 'Davolio'... obtendrás el código de escape.
 14- SELECT 
   (SELECT SupplierID FROM Products GROUP BY SupplierID ORDER BY COUNT(*) DESC LIMIT 1) 
   * (SELECT COUNT(*) FROM Orders JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID WHERE LastName = 'Davolio');
 
-respuesta: 
+respuesta: 348
