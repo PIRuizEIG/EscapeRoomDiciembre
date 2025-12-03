@@ -40,21 +40,21 @@ acercarse a la salida… o enfrentarse finalmente a sus propios actos.
 
 ## Consultas y Castigos
 
+
+Antes de poder hacer algo en el primer armario salta el siguiente dialogo:
+
+>"Delante de ti se encunetran una terminal abierta y un agujero a la izquierda, deberás realizar las consultas que se te requieran con la mano izquierda dentro del hueco hasta la muñeca"
+
 Cada consulta tiene **un primer intento sin castigo**.  
 El jugador, basándose en una pista escrita en la pared del armario, deberá realizar la consulta para obtener el dato deseado.  
 Puede hacer todas las pruebas que quiera, pero al confirmar una respuesta, si esta es incorrecta y ya ha usado su primer intento, aparecerá el siguiente diálogo:
 
 > **"Veo que has cometido suficientes errores como para recibir tu primer castigo… pero no temas, aún te queda mucho por delante.  
-> En este mismo instante se ha abierto un conducto que está desplazando lentamente el oxígeno del lugar donde te encuentras, lo que provocará que acabes muriendo por asfixia.  
-> A partir de ahora vas contrarreloj, y cuantas más veces falles… más conductos comenzarán a succionar el oxígeno."**
+> A continuación sentiras un fuerte dolor en uno de los dedos de tu mano izquierda, dentro del hueco donde introduces la mano se encuentra una pequeña guillotina que irá cortandote un dedo por cada fallo, lo que quiere decir que tienes el mismo número de intentos que de dedos en la mano...  
+> A partir de ahora tendrás que ir con cuidado, ya que sin dedos en la mano, la terminal se apagará y tu morirás desangrado..."**
 
 De esta manera, el jugador tiene un primer intento en el que se permite fallar sin consecuencias.  
-Pero si falla en un segundo intento, se activará un temporizador; y a medida que continúe fallando, el tiempo disponible se irá reduciendo.
-
-También en caso de que el jugador pase de la primera consulta sin fallar, en el segundo terminal se mostrará:
-
->"Lo has hecho bien... Demasiado bien... Para que esto esté mas interesante, ¿Qué tal si aplicamos un poco de presión?
->Se acaba de abrir un respiradero que está trasladando lentamente el oxigeno del lugar donde te encuentras, lo que provocará que acabes muriendo de asfixia, así que a partir de ahora vas contra reloj y ahora ten cuidado con fallar... Puede que eso recorte tu tiempo..."
+Pero si falla en un segundo intento, perderá una de 5 vidas.
 
 ---
 
@@ -123,7 +123,7 @@ respuesta: 348
 
 ## Dialogos respecto a acciones:
 
-Se acaba el tiempo (El jugador muere asfixiado):
+Se agotan las vidas (El jugador muere):
 >"Parece que no das la talla para salvar ninguna vida... Ya has sido juzgado en vida, ahora tus pecados serán juzgados en la siguiente..."
 
 Se intenta introducir un código incorrecto en la terminal final:
