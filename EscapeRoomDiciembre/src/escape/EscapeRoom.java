@@ -16,6 +16,16 @@ public class EscapeRoom {
 	 * Textos del juego
 	 */
 	private DisplayText[] text;
+	
+	/**
+	 * Respuestas incorrectas
+	 */
+	private String[] wrong;
+	
+	/**
+	 * Contador de respuescas incorrectas
+	 */
+	private int counter = 0;
 
 	/**
 	 * Crear juego con la lista de texto enviada
@@ -25,6 +35,8 @@ public class EscapeRoom {
 	public EscapeRoom(DisplayText[] text) {
 		sc = new Scanner(System.in);
 		this.text = text.clone();
+		String failed[] = {"Fallo 1", "Fallo 2", "Fallo 3"};
+		wrong = failed;
 	}
 
 	/**
@@ -42,8 +54,10 @@ public class EscapeRoom {
 	 * @return Cadena normalizada
 	 */
 	private String normalize(String s) {
-		return s.trim() // elimina espacios del principio y final
-				.replaceAll("\\p{Punct}", ""); // elimina puntuación . , ; : ! ? etc.
+		// trim elimina espacios del principio y final
+		return s.trim() 
+				// eliminar puntuación . , ; : ! ? etc.
+				.replaceAll("\\p{Punct}", ""); 
 	}
 
 	/**
@@ -69,20 +83,30 @@ public class EscapeRoom {
 				if (answer.compareToIgnoreCase(text[num].getAnswer()) == 0) {
 					text[num].showSuccess();
 					escapeLoop = true;
-					;
 				} else {
-					System.out.println("Respuesta incorrecta");
+					System.out.printf("%s%n", wrong[counter]);
+					counter++;
 					escapeLoop = false;
 				}
 			} else
 				waitForInput();
-			// Una vez terminado salimos del bucle
-		} while (!escapeLoop);
+			// Una vez que se acierta o se acaban los intentos salimos del bucle
+		} while (!escapeLoop && counter < wrong.length);
 	}
 
+	/**
+	 * Bucle de juego
+	 */
 	public void enterGameLoop() {
+		// Entramos a cada entrada de texto
 		for (int i = 0; i < text.length; i++) {
 			enterRoom(i);
+			// Si nos hemos quedado sin turnos se llama el fin del juego
+			if (counter >= wrong.length)
+			{
+				System.out.println("Game Over");
+				break;
+			}
 		}
 	}
 
