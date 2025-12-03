@@ -51,3 +51,18 @@ Puede hacer todas las pruebas que quiera, pero al confirmar una respuesta, si es
 De esta manera, el jugador tiene un primer intento en el que se permite fallar sin consecuencias.  
 Pero si falla en un segundo intento, se activará un temporizador; y a medida que continúe fallando, el tiempo disponible se irá reduciendo.
 
+---
+
+## Posibles consultas:
+
+1. Conseguir los precios sin decimales de los productos pertenecientes a la categoría 4 y sumarlos.
+
+2. Conseguir el numero de veces que se ha ordenado un producto transportado por el Shipper numero 3 durante el mes de noviembre.
+
+3. Obtener la suma de los precios impares pertenecientes a los productos de la categoría 1.
+
+4. Conseguir la suma total de los precios de los productos pedidos por clientes de Estados Unidos.
+
+Uniendo el primer digito de cada resultado de estas consultas se consigue el código de la terminal principal.
+
+5. 
