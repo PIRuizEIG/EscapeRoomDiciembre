@@ -58,19 +58,66 @@ También en caso de que el jugador pase de la primera consulta sin fallar, en el
 
 ---
 
-## Posibles consultas:
+## Consultas:
 
-1. Conseguir los precios sin decimales de los productos pertenecientes a la categoría 4 y sumarlos.
+1. En Julio de 1996 (1996-07), hubo un empleado que gestionó más órdenes que nadie. Necesito el ID de ese empleado.
 
-2. Conseguir el numero de veces que se ha ordenado un producto transportado por el Shipper numero 3 durante el mes de noviembre.
+SELECT EmployeeID
+FROM Orders
+WHERE OrderDate LIKE '1996-07%'
+GROUP BY EmployeeID
+ORDER BY COUNT(*) DESC
+LIMIT 1;
 
-3. Obtener la suma de los precios impares pertenecientes a los productos de la categoría 1.
+respuesta: 4
 
-4. Conseguir la suma total de los precios de los productos pedidos por clientes de Estados Unidos.
+2. ¿Cuál es la suma total de dinero generado por todos los productos de la categoría 'Dairy Products' (Lácteos)?
 
-Uniendo el primer digito de cada resultado de estas consultas se consigue el código de la terminal principal.
+SELECT SUM(OrderDetails.Quantity * Products.Price)
+FROM OrderDetails
+JOIN Products ON OrderDetails.ProductID = Products.ProductID
+JOIN Categories ON Products.CategoryID = Categories.CategoryID
+WHERE Categories.CategoryName = 'Dairy Products';
 
-5. Obtener el número total de unidades vendidas del producto más solicitado en toda la empresa.
+respuesta: 69921.0
+
+3. Calcula la suma total del precio (Price * Quantity) para el pedido 10248.
+
+SELECT SUM(OrderDetails.Quantity * Products.Price) 
+FROM OrderDetails 
+JOIN Products 
+ON OrderDetails.ProductID = Products.ProductID 
+WHERE OrderID = 10248;
+
+respuesta: 566.0 
+
+4. Cuenta cuántos pedidos (Orders) han sido enviados por el transportista llamado 'United Package'.
+
+SELECT COUNT(*) 
+FROM Orders 
+JOIN Shippers 
+ON Orders.ShipperID = Shippers.ShipperID 
+WHERE ShipperName = 'United Package';
+
+respuesta: 74
+
+## Uniendo todos los digitos de cada resultado de estas consultas se consigue el código de la terminal principal (46992156674).
+
+5. Sumar el ID del Proveedor (SupplierID) con más productos en catálogo, multiplicado por el número total de pedidos del empleado 'Davolio'
+
+SELECT (
+    SELECT SupplierID 
+    FROM Products 
+    GROUP BY SupplierID 
+    ORDER BY COUNT(*) 
+    DESC LIMIT 1) * (
+        SELECT COUNT(*) 
+        FROM Orders 
+        JOIN Employees 
+        ON Orders.EmployeeID = Employees.EmployeeID 
+        WHERE LastName = 'Davolio');
+
+respuesta: 348
 
 ---
 
