@@ -35,7 +35,7 @@ public class EscapeRoom {
 	public EscapeRoom(DisplayText[] text) {
 		sc = new Scanner(System.in);
 		this.text = text.clone();
-		String failed[] = {"Fallo 1", "Fallo 2", "Fallo 3"};
+		String failed[] = {"¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos, solo te queda uno","¡CLACK! Perdiste tu último dedo, estas acabado."};
 		wrong = failed;
 	}
 

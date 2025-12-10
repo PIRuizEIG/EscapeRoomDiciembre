@@ -1,49 +1,213 @@
 [
-  {
-    "description": "Bienvenido. Hace algún tiempo jugaste con las esperanzas de los demás usando tu talento…
+	{
+		"description": "Te encuentras en un almacén oscuro con cuatro armarios al fondo y una puerta corredera entre ellos.  
+Frente a ti se encuentra un pequeño portátil con una terminal esperando a que introduzcas una clave.  
+Una voz resuena por la megafonía sobre ti:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+    	"description": "Bienvenido. Hace algún tiempo jugaste con las esperanzas de los demás usando tu talento…
 y ahora, usando ese mismo talento, tendrás que jugar a mi juego.",
-	"formatoTexto": "Cursiva",
-	"colorTexto": "TextoAmarillo",
-	"fondoTexto": "FondoNegro",
-	"needsAnswer": false
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
   },
   {
-    "description": "Ante ti hay cuatro armarios, cada uno con una terminal. Dentro encontrarás fragmentos de la
+    	"description": "Ante ti hay cuatro armarios, cada uno con una terminal. Dentro encontrarás fragmentos de la
 verdad que intentaste ocultar. Solo realizando las consultas SQL correctas obtendrás las
 cuatro partes de la clave.
 Cuando las unas, podrás desbloquear la terminal principal y ejecutar la consulta final que
 determinará si mereces salir de este almacén… o quedarte atrapado con tus pecados.",
-	"formatoTexto": "Normal",
-	"colorTexto": "Normal",
-	"fondoTexto": "Normal",
-    "needsAnswer": false
-  },
-  {
-    "description": "Tras escuchar este mensaje, el primer armario se abre y el juego comienza. Pero recuerda:
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
+    	"needsAnswer": false
+	},
+	{
+    	"description": "Tras escuchar este mensaje, el primer armario se abre y el juego comienza. Pero recuerda:
 en el pasado no fallaste, no te apresuraste y no cometiste errores. Si aquí fuera igual,
 ¿dónde se encontraría la diversión…? Por cada consulta que realices incorrectamente
 recibirás un castigo, así que ándate con ojo…",
-"formatoTexto": "Normal",
-"colorTexto": "Normal",
-"fondoTexto": "Normal",
-    "needsAnswer": false
-  },
-  {
-    "description": "Dime hola",
-	"formatoTexto": "Normal",
-	"colorTexto": "Normal",
-	"fondoTexto": "Normal",
-    "answer": "hola",
-    "success": "Bien hecho",
-    "needsAnswer": true
-  },
-  {
-    "description": "Dime adios",
-	"formatoTexto": "Normal",
-	"colorTexto": "Normal",
-	"fondoTexto": "Normal",
-    "answer": "adios",
-    "success": "Fin del juego",
-    "needsAnswer": true
-  }
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Te aproximas al primer armario, dentro de él se encuentra un mensaje escrito y un agujero al fondo del armario:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+    },
+	{
+		"description": "Introduce cada dedo de la mano izquierda dentro de cada anillo que se encuentran dentro del hueco frente a ti
+para comenzar el juego",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Al introducir los dedos, notas como los anillos se cierran y dejan tu mano atrapada dentro del agujero. 
+La voz vuelve a sonar:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Veo que quieres comenzar ya con el juego... Pero antes, debo explicarte las reglas... 
+Tienes 5 intentos, uno por cada terminal, gastalos donde te plazca... Aunque deberías tener cuidado ya que 
+si fallas al introducir la respuesta sentiras un fuerte dolor en uno de los dedos de tu mano izquierda, 
+justo sobre tus dedos se encuentra una pequeña guillotina que irá cortandote un dedo por cada fallo... Si te quedas sin
+dedos no podrás activar terminales y morirás desangrado...",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "La terminal se enciende y comienza el reto:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "En Julio de 1996, hubo un empleado que gestionó más órdenes que nadie. Necesito el ID de ese empleado.",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
+		"answer": "4",
+		"success": "Correcto",
+		"needsAnswer": true
+	},
+	{
+		"description": "Tu mano es liberada y se abre el siguiente armario",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Tras introducir la mano, la terminal se enciende y comienza el reto:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "¿Cuál es la suma total de dinero generado por todos los productos de la categoría 'Dairy Products'?",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
+		"answer": "69921",
+		"success": "Correcto",
+		"needsAnswer": true
+	},
+	{
+		"description": "Tu mano es liberada y se abre el siguiente armario",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Tras introducir la mano, la terminal se enciende y comienza el reto:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Calcula la suma total del precio para el pedido 10248.",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
+		"answer": "566",
+		"success": "Correcto",
+		"needsAnswer": true
+	},
+	{
+		"description": "Tu mano es liberada y se abre el siguiente armario",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Tras introducir la mano, la terminal se enciende y comienza el reto:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Cuenta cuántos pedidos han sido enviados por el transportista llamado 'United Package'.",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
+		"answer": "74",
+		"success": "Correcto",
+		"needsAnswer": true
+	},
+	{
+		"description": "Tu mano es liberada y tras de tí, la terminal bloqueada se ilumina",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Te acercas a la terminal y suena desde la megafonía:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Veo que has llegado lejos, esta es la parte mas facil, lo único que tienes hacer es juntar todas las respuestas
+anteriores para desbloquear la terminal que te llevará a la salida...",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
+		"answer": "46992156674",
+		"success": "Acceso permitido",
+		"needsAnswer": true
+	},
+	{
+		"description": "Suma el ID del Proveedor (SupplierID) con más productos en catálogo, multiplicado por el número total de pedidos del empleado 'Davolio'",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
+		"answer": "348",
+		"success": "Correcto",
+		"needsAnswer": true
+	},
+	{
+		"description": "La terminal se apaga y vuelve a resonar la voz en la megafonía:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "Veo que lo has superado, una pena... Estaré observando tus acciones, nos vemos en el siguiente juego...",
+		"formatoTexto": "Cursiva",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
+		"description": "La enorme puerta corredera frente a tí se abre mostrandote una salida resplandeciente. Fin del juego.",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	}
 ]
