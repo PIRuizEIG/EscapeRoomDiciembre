@@ -103,6 +103,9 @@ public class DisplayText {
 	 * Objeto vacío para JSON
 	 */
 	public DisplayText() {
+		this.formatoTexto = Formato.Normal;
+		this.colorTexto = Formato.Normal;
+		this.fondoTexto = Formato.Normal;
 	}
 
 	/**
