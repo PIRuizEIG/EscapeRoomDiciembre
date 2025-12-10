@@ -13,6 +13,9 @@ verdad que intentaste ocultar. Solo realizando las consultas SQL correctas obten
 cuatro partes de la clave.
 Cuando las unas, podrás desbloquear la terminal principal y ejecutar la consulta final que
 determinará si mereces salir de este almacén… o quedarte atrapado con tus pecados.",
+	"formatoTexto": "Normal",
+	"colorTexto": "Normal",
+	"fondoTexto": "Normal",
     "needsAnswer": false
   },
   {
@@ -20,16 +23,25 @@ determinará si mereces salir de este almacén… o quedarte atrapado con tus pe
 en el pasado no fallaste, no te apresuraste y no cometiste errores. Si aquí fuera igual,
 ¿dónde se encontraría la diversión…? Por cada consulta que realices incorrectamente
 recibirás un castigo, así que ándate con ojo…",
+"formatoTexto": "Normal",
+"colorTexto": "Normal",
+"fondoTexto": "Normal",
     "needsAnswer": false
   },
   {
     "description": "Dime hola",
+	"formatoTexto": "Normal",
+	"colorTexto": "Normal",
+	"fondoTexto": "Normal",
     "answer": "hola",
     "success": "Bien hecho",
     "needsAnswer": true
   },
   {
     "description": "Dime adios",
+	"formatoTexto": "Normal",
+	"colorTexto": "Normal",
+	"fondoTexto": "Normal",
     "answer": "adios",
     "success": "Fin del juego",
     "needsAnswer": true
