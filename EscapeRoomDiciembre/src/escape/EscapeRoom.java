@@ -16,12 +16,14 @@ public class EscapeRoom {
 	 * Textos del juego
 	 */
 	private DisplayText[] text;
-	
+
 	/**
 	 * Respuestas incorrectas
 	 */
 	private String[] wrong;
 	
+	private String gameOver;
+
 	/**
 	 * Contador de respuescas incorrectas
 	 */
@@ -35,8 +37,11 @@ public class EscapeRoom {
 	public EscapeRoom(DisplayText[] text) {
 		sc = new Scanner(System.in);
 		this.text = text.clone();
-		String failed[] = {"¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos, solo te queda uno","¡CLACK! Perdiste tu último dedo, estas acabado."};
+		String failed[] = { "¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos", "¡CLACK! Un dedo menos",
+				"¡CLACK! Un dedo menos, solo te queda uno", "¡CLACK! Perdiste tu último dedo, estas acabado." };
 		wrong = failed;
+		gameOver = "Parece que no das la talla para salvar ninguna vida... "
+				+ "Ya has sido juzgado en vida, ahora tus pecados serán juzgados en la siguiente...";
 	}
 
 	/**
@@ -55,9 +60,9 @@ public class EscapeRoom {
 	 */
 	private String normalize(String s) {
 		// trim elimina espacios del principio y final
-		return s.trim() 
+		return s.trim()
 				// eliminar puntuación . , ; : ! ? etc.
-				.replaceAll("\\p{Punct}", ""); 
+				.replaceAll("\\p{Punct}", "");
 	}
 
 	/**
@@ -84,7 +89,9 @@ public class EscapeRoom {
 					text[num].showSuccess();
 					escapeLoop = true;
 				} else {
+					System.out.print(JavaFormat.BOLD + JavaFormat.RED_BG + JavaFormat.BLACK);
 					System.out.printf("%s%n", wrong[counter]);
+					System.out.print(JavaFormat.RESET);
 					counter++;
 					escapeLoop = false;
 				}
@@ -102,9 +109,10 @@ public class EscapeRoom {
 		for (int i = 0; i < text.length; i++) {
 			enterRoom(i);
 			// Si nos hemos quedado sin turnos se llama el fin del juego
-			if (counter >= wrong.length)
-			{
-				System.out.println("Game Over");
+			if (counter >= wrong.length) {
+				System.out.print(JavaFormat.BOLD + JavaFormat.RED_BG + JavaFormat.BLACK);
+				System.out.println(gameOver);
+				System.out.print(JavaFormat.RESET);
 				break;
 			}
 		}
