@@ -2,7 +2,10 @@
   {
     "description": "Bienvenido. Hace algún tiempo jugaste con las esperanzas de los demás usando tu talento…
 y ahora, usando ese mismo talento, tendrás que jugar a mi juego.",
-    "needsAnswer": false
+	"formatoTexto": "Cursiva",
+	"colorTexto": "TextoAmarillo",
+	"fondoTexto": "FondoNegro",
+	"needsAnswer": false
   },
   {
     "description": "Ante ti hay cuatro armarios, cada uno con una terminal. Dentro encontrarás fragmentos de la
