@@ -81,10 +81,10 @@ dedos no podrás activar terminales y morirás desangrado...",
 	{
 		"description": "En Julio de 1996, hubo un empleado que gestionó más órdenes que nadie. Necesito el ID de ese empleado.",
 		"formatoTexto": "Cursiva",
-		"colorTexto": "TextoNegro",
-		"fondoTexto": "FondoVerde",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
 		"answer": "4",
-		"success": "Nada mal, ¿eh?",
+		"success": "Correcto",
 		"needsAnswer": true
 	},
 	{
@@ -104,10 +104,10 @@ dedos no podrás activar terminales y morirás desangrado...",
 	{
 		"description": "¿Cuál es la suma total de dinero generado por todos los productos de la categoría 'Dairy Products'?",
 		"formatoTexto": "Cursiva",
-		"colorTexto": "TextoNegro",
-		"fondoTexto": "FondoVerde",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
 		"answer": "69921",
-		"success": "Sabía que podías.",
+		"success": "Correcto",
 		"needsAnswer": true
 	},
 	{
@@ -127,8 +127,8 @@ dedos no podrás activar terminales y morirás desangrado...",
 	{
 		"description": "Calcula la suma total del precio para el pedido 10248.",
 		"formatoTexto": "Cursiva",
-		"colorTexto": "TextoNegro",
-		"fondoTexto": "FondoAmarillo",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
 		"answer": "566",
 		"success": "Correcto",
 		"needsAnswer": true
@@ -151,9 +151,9 @@ dedos no podrás activar terminales y morirás desangrado...",
 		"description": "Cuenta cuántos pedidos han sido enviados por el transportista llamado 'United Package'.",
 		"formatoTexto": "Cursiva",
 		"colorTexto": "TextoBlanco",
-		"fondoTexto": "FondoRojo",
+		"fondoTexto": "FondoNegro",
 		"answer": "74",
-		"success": "Bien hecho",
+		"success": "Correcto",
 		"needsAnswer": true
 	},
 	{
@@ -174,19 +174,26 @@ dedos no podrás activar terminales y morirás desangrado...",
 		"description": "Veo que has llegado lejos, esta es la parte mas facil, lo único que tienes hacer es juntar todas las respuestas
 anteriores para desbloquear la terminal que te llevará a la salida...",
 		"formatoTexto": "Cursiva",
-		"colorTexto": "TextoBlanco",
-		"fondoTexto": "FondoRojo",
+		"colorTexto": "TextoRojo",
+		"fondoTexto": "FondoNegro",
 		"answer": "46992156674",
 		"success": "Acceso permitido",
 		"needsAnswer": true
 	},
 	{
+		"description": "Tras introducir el código, la pantalla se reinicia y da paso a una última consulta:",
+		"formatoTexto": "Normal",
+		"colorTexto": "TextoAmarillo",
+		"fondoTexto": "FondoNegro",
+		"needsAnswer": false
+	},
+	{
 		"description": "Suma el ID del Proveedor (SupplierID) con más productos en catálogo, multiplicado por el número total de pedidos del empleado 'Davolio'",
 		"formatoTexto": "Cursiva",
-		"colorTexto": "TextoNegro",
-		"fondoTexto": "FondoRojo",
+		"colorTexto": "TextoBlanco",
+		"fondoTexto": "FondoNegro",
 		"answer": "348",
-		"success": "¡Qué grande!",
+		"success": "Correcto",
 		"needsAnswer": true
 	},
 	{
