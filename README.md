@@ -47,12 +47,12 @@ Este proyecto evalúa:
 ## 📦 Requisitos Técnicos
 
 ### **Tecnologías utilizadas**
+
 - **Java**
 - **Gson 2.13.1** (para lectura de JSON)
-- **DB Browser for SQLite** (Base de datos)
+- **Base de datos SQL de W3Schools con copia en Browser for SQLite** (Base de datos: [W3Schools](https://www.w3schools.com/Sql))
 - **Consola con soporte ANSI** (colores y formato)
 - Archivo JSON para los mensajes del juego
-
 
 ---
 
@@ -83,7 +83,6 @@ Cada elemento incluye:
 
 Este sistema permite modificar y ampliar la historia sin tocar el código Java.
 
-
 ---
 
 ## ✨ Características destacadas
@@ -95,12 +94,12 @@ Este sistema permite modificar y ampliar la historia sin tocar el código Java.
 - 🔐 Puzzle final uniendo todas las respuestas
 - 🛠️ Código modular y fácilmente ampliable
 
-
 ---
 
 ## 👥 Autores
 
 Proyecto desarrollado por:
+
 - Pablo Illescas
 - Kenji Ricaldi
 - Alejandro Sánchez
