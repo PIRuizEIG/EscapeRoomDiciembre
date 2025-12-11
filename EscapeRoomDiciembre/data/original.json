@@ -79,8 +79,7 @@ dedos no podrás activar terminales y morirás desangrado...",
 		"needsAnswer": false
 	},
 	{
-		"description": "En los archivos del julio de 1996 hay un trabajador cuya firma aparece más veces que la de cualquier otro.
-Encuentra su mensaje oculto… su número.",
+		"description": "En Julio de 1996, hubo un empleado que gestionó más órdenes que nadie. Necesito el ID de ese empleado.",
 		"formatoTexto": "Cursiva",
 		"colorTexto": "TextoBlanco",
 		"fondoTexto": "FondoNegro",
@@ -103,8 +102,7 @@ Encuentra su mensaje oculto… su número.",
 		"needsAnswer": false
 	},
 	{
-		"description": "En los registros contables hay un conjunto de productos Lácteos (Dairy Products).
-Aquellos que llenan despensas y cámaras frigoríficas. Si sumas todo el dinero que generaron juntos… ¿qué cifra obtienes?",
+		"description": "¿Cuál es la suma total de dinero generado por todos los productos de la categoría 'Dairy Products'?",
 		"formatoTexto": "Cursiva",
 		"colorTexto": "TextoBlanco",
 		"fondoTexto": "FondoNegro",
@@ -127,8 +125,7 @@ Aquellos que llenan despensas y cámaras frigoríficas. Si sumas todo el dinero 
 		"needsAnswer": false
 	},
 	{
-		"description": "Hay un pedido muy especial archivado bajo un número que quizá te resulte familiar: 10248.
-Si revisas cada importe asociado a él y los sumas… ¿qué total emerge?",
+		"description": "Calcula la suma total del precio para el pedido 10248.",
 		"formatoTexto": "Cursiva",
 		"colorTexto": "TextoBlanco",
 		"fondoTexto": "FondoNegro",
@@ -151,8 +148,7 @@ Si revisas cada importe asociado a él y los sumas… ¿qué total emerge?",
 		"needsAnswer": false
 	},
 	{
-		"description": "Entre los mensajeros que recorren rutas interminables, United Package resulta extrañamente familiar.
-Examina sus envíos y dime cuántos llevó realmente.",
+		"description": "Cuenta cuántos pedidos han sido enviados por el transportista llamado 'United Package'.",
 		"formatoTexto": "Cursiva",
 		"colorTexto": "TextoBlanco",
 		"fondoTexto": "FondoNegro",
@@ -192,8 +188,7 @@ anteriores para desbloquear la terminal que te llevará a la salida...",
 		"needsAnswer": false
 	},
 	{
-		"description": "Busca al proveedor cuyo inventario rebosa más que el de ningún otro. Luego mira al Davolio.
-Combina sus números tal como sabes hacerlo… y dame el resultado.",
+		"description": "Suma el ID del Proveedor (SupplierID) con más productos en catálogo, multiplicado por el número total de pedidos del empleado 'Davolio'",
 		"formatoTexto": "Cursiva",
 		"colorTexto": "TextoBlanco",
 		"fondoTexto": "FondoNegro",
